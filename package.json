@@ -8,6 +8,7 @@
   "license": "MIT",
   "dependencies": {
     "chalk": "^2.4.1",
+    "eventemitter3": "^3.1.0",
     "export-files": "^2.1.1",
     "pad": "^2.1.0",
     "winston": "^3.0.0-rc5"
