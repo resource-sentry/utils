@@ -4,6 +4,5 @@ Set of helper functions and objects. Shared code to help with a module (writer, 
 
 ## Ideas
 
-- Add Logger
 - Add base Class for reader
 - Add base Class for writer
