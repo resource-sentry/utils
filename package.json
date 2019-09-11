@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "Set of helper functions and objects.",
   "main": "./lib/index.js",
+  "scripts": {
+    "test": "jest"
+  },
   "repository": "https://github.com/resource-sentry/utils.git",
   "author": "Nicolas Siver",
   "license": "MIT",
@@ -12,5 +15,8 @@
     "export-files": "^2.1.1",
     "pad": "^2.1.0",
     "winston": "^3.0.0-rc5"
+  },
+  "devDependencies": {
+    "jest": "^24.9.0"
   }
 }
