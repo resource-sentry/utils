@@ -54,4 +54,10 @@ describe('Object Walker', () => {
         expect(walker.setObject({b: 'two'}).getValues()).toContainEqual({key: 'b', value: 'two'});
     });
 
+    it('creates new object', () => {
+        let first = walker.setObject({a: 1}).getValues();
+        let second = walker.setObject({a: 1}).getValues();
+        expect(first === second).toBeFalsy();
+    });
+
 });
